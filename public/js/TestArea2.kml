@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Proyecto sin título</name>
+	<gx:CascadingStyle kml:id="__managed_style_2A50A2B7321287F03EAD">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff3c8e38</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>403c8e38</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1FD3589C011287F03EAD">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff3c8e38</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>403c8e38</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0A472E51FE1287F03EAD">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1FD3589C011287F03EAD</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2A50A2B7321287F03EAD</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0E8D8343461287F029E5">
+		<name>TestArea2</name>
+		<LookAt>
+			<longitude>-76.96944696275158</longitude>
+			<latitude>-12.16252729854835</latitude>
+			<altitude>102.4163108958425</altitude>
+			<heading>-1.553540085710654</heading>
+			<tilt>5.276045601898407</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1720.328015993291</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A472E51FE1287F03EAD</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-76.9679882739301,-12.16047146636852,110.4787190734101 -76.96823376428119,-12.16099125915582,107.6819966184943 -76.96864305430179,-12.16207166614542,105.1413317198532 -76.96892085882727,-12.16282900268019,102.372033655765 -76.96905946232236,-12.1633993523159,101.2186306857846 -76.96918915975229,-12.16426237730281,99.26547380944473 -76.96927262236341,-12.16460344334255,98.09928801429166 -76.96924980764611,-12.16534010941004,97.31401309087593 -76.96919238268767,-12.1658417727025,96.20767356899435 -76.96765639202864,-12.16584610247988,99.19534550239027 -76.96703829073837,-12.16595022057914,100.1688537439949 -76.96670845351923,-12.16585761540761,101.2868335460263 -76.96617142360039,-12.16453845003624,104.2217850277945 -76.9670554196946,-12.16432775756957,103.4260626953687 -76.96653605140523,-12.16263160521259,106.9391361190718 -76.96762787913437,-12.16201690764525,106.7153367789093 -76.96721288529442,-12.16076416409517,109.7513949033399 -76.9679882739301,-12.16047146636852,110.4787190734101 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
